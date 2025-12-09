@@ -700,11 +700,11 @@
           </div>
 
           <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
-              data-aos-delay="200">
+            <form action="https://api.web3forms.com/submit" method="POST" id="contactForm" onsubmit="return validateForm(event)">
               <div class="row gy-4">
 
                 <div class="col-md-6">
+                   <input type="hidden" name="access_key" value="ab15602a-1971-4e74-b521-3320b6fd9542">
                   <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
                 </div>
 
